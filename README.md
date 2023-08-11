@@ -27,9 +27,9 @@ A set of scripts and configuration files to easily start Jupyter Notebooks on Hi
 ## Usage
 
 1. **Start Jupyter Notebook on HPC**:
-    - Run the `start_jupyter_configured.py` script. If any dependency is missing, the script will notify you with instructions on how to install it:
+    - Run the `open_jupyter.py` script. If any dependency is missing, the script will notify you with instructions on how to install it:
       ```bash
-      python start_jupyter_configured.py
+      python open_jupyter.py
       ```
     - Follow the prompts to select your server and enter your username.
     - A web browser will open with your Jupyter Notebook session running on the HPC.

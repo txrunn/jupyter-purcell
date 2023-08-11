@@ -38,7 +38,7 @@ username = input(f"Enter your username for {selected_server['name']}: ")
 
 # Construct the SSH command using the selected server's details, the provided username, 
 # the location parameter from the config, and specify the start.sh script to be run on the HPC after login
-ssh_command = f"{selected_server['ssh_command'].replace('UMID', username)} 'bash -l -c "{selected_server['location']}/start.sh"'"
+ssh_command = f"{selected_server['ssh_command'].replace('UMID', username)} 'bash -l -c '{selected_server['location']}/start.sh''"
 
 # Execute the constructed SSH command to start the Jupyter Notebook on the HPC
 # Wait for the SSH subprocess to complete before ending the Python script
