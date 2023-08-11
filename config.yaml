@@ -1,0 +1,15 @@
+
+# Configuration for Jupyter Notebook startup on HPC servers
+
+# Server configurations
+servers:
+  - name: "jude.umd.edu"
+    address: "jude.umd.edu"
+    ssh_command: "ssh UMID@jude.umd.edu"
+    direct_ip: "128.8.164.62"
+    port_range: "8888-8898"
+  - name: "neurodev3.umd.edu"
+    address: "neurodev3.umd.edu"
+    ssh_command: "ssh UMID@neurodev3.umd.edu"
+    direct_ip: "128.8.164.63"
+    port_range: "8888-8898"
