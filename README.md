@@ -1,5 +1,4 @@
-
-# HPC Jupyter Starter
+# Jupyter Starter
 
 A set of scripts and configuration files to easily start Jupyter Notebooks on High-Performance Computing (HPC) servers. The repository can be found at [github.com/txrunn/jupyter-purcell](https://github.com/txrunn/jupyter-purcell).
 
