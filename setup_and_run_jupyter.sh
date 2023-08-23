@@ -2,13 +2,13 @@
 #!/bin/bash
 
 # Check if jupyter directory exists
-if [ ! -d "jupyter" ]; then
+if [ ! -d "jupyter-purcell" ]; then
     # Clone the repository from GitHub
     git clone https://github.com/txrunn/jupyter-purcell.git
 fi
 
 # Navigate to the jupyter-purcell directory
-cd jupyter
+cd jupyter-purcell
 
 # Set up the Conda environment
 ./setup_environment.sh
