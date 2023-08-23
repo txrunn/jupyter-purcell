@@ -8,7 +8,7 @@ A set of scripts and configuration files to easily start Jupyter Notebooks on Hi
 For a quick setup and to start the Jupyter Notebook on your chosen server, simply run:
 
 ```bash
-curl -O https://github.com/txrunn/jupyter-purcell/raw/main/setup_and_run_jupyter.sh && bash setup_and_run_jupyter.sh
+curl -O https://raw.githubusercontent.com/txrunn/jupyter-purcell/main/setup_and_run_jupyter.sh && bash setup_and_run_jupyter.sh
 ```
 
 This will download the necessary files, set up the Conda environment, and launch an interactive script to let you select a server and start Jupyter Notebook.
