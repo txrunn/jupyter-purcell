@@ -7,10 +7,11 @@ A set of scripts and configuration files to easily start Jupyter Notebooks on Hi
 
 For a quick setup and to start the Jupyter Notebook on your chosen server, simply run:
 
+**MAKE SURE YOU ARE RUNNING BASH not TCSH**
+
 ```bash
 curl -O https://raw.githubusercontent.com/txrunn/jupyter-purcell/main/setup_and_run_jupyter.sh && \\
 chmod +x setup_and_run_jupyter.sh && \\
-# Ensure all necessary scripts are executable \\
 chmod +x setup_and_run_jupyter.sh setup_environment.sh start.sh
 
 ./setup_and_run_jupyter.sh
