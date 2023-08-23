@@ -19,7 +19,7 @@ jobs:
 
       - name: Set the tag
         id: retrieve_tag
-        run: echo "tag=v0.0.${{ steps.get_version.outputs.version }}" >> $GITHUB_ENV
+        run: echo "::set-output name=tag::v0.0.${{ steps.get_version.outputs.version }}"
 
   build:
     needs: tag
